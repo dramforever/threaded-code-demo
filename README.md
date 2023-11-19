@@ -28,8 +28,6 @@ $ make          # Build everything
 
 Each demo simply prints a number to show that it will run. The expected outputs are:
 
-- `direct`: `2`
-- `indirect`: `4`
 - `bytecode`: `2`
 - `direct`: `2`
 - `indirect`: `4`
