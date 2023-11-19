@@ -1,0 +1,9 @@
+IndentWidth: 4
+ContinuationIndentWidth: 4
+TabWidth: 4
+Cpp11BracedListStyle: false
+UseTab: Never
+AlignAfterOpenBracket: BlockIndent
+AllowShortFunctionsOnASingleLine: Empty
+SpaceAfterCStyleCast: true
+ColumnLimit: 100
