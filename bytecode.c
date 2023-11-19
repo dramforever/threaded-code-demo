@@ -14,7 +14,7 @@ const uint8_t program[] = {
 
 const uint8_t *ip = program;
 
-uintptr_t stack_buf[16];
+uintptr_t stack_buf[STACK_SIZE];
 uintptr_t *sp = stack_buf;
 
 void interpreter(void) {

@@ -45,10 +45,10 @@ const struct instr i_main = {
 
 const struct instr *ip = &i_main;
 
-uintptr_t stack_buf[16];
+uintptr_t stack_buf[STACK_SIZE];
 uintptr_t *sp = stack_buf;
 
-const struct instr *rstack_buf[16];
+const struct instr *rstack_buf[STACK_SIZE];
 const struct instr **rsp = rstack_buf;
 
 void interpreter(void) {

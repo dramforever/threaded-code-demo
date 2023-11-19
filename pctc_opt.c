@@ -49,9 +49,9 @@ const struct instr i_main = {
     .data = (uintptr_t) sr_main,
 };
 
-uintptr_t stack_buf[16];
+uintptr_t stack_buf[STACK_SIZE];
 
-const struct instr *rstack_buf[16];
+const struct instr *rstack_buf[STACK_SIZE];
 
 static inline void go(DECL_STATE) {
     struct instr ins = *ip;
