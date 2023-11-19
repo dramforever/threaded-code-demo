@@ -1,5 +1,7 @@
 # Threaded code demo
 
+Complete demos for my article Threaded code explained in C at <https://dram.page/p/threaded-code/>
+
 Some demonstrations of threaded code techniques
 
 - `bytecode.c`: Bytecode (Not technically threaded)
